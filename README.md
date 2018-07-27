@@ -1,19 +1,20 @@
-# select_tcpserver
-#include <stdio.h>
-#include <string.h>   //strlen
-#include <stdlib.h>
-#include <errno.h>
-#include <unistd.h>   //close
-#include <arpa/inet.h>    //close
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <sys/ioctl.h>
-#include <sys/time.h> //FD_SET, FD_ISSET, FD_ZERO macros
+# sample tcp server
+
+#include <stdio.h><br>
+#include <string.h>   //strlen<br>
+#include <stdlib.h><br>
+#include <errno.h><br>
+#include <unistd.h>   //close<br>
+#include <arpa/inet.h>    //close<br>
+#include <sys/types.h><br>
+#include <sys/socket.h><br>
+#include <netinet/in.h><br>
+#include <sys/ioctl.h><br>
+#include <sys/time.h> //FD_SET, FD_ISSET, FD_ZERO macros<br>
   
-#define TRUE   1
-#define FALSE  0
-#define PORT 9999
+#define TRUE   1<br>
+#define FALSE  0<br>
+#define PORT 9999<br>
  
 
 int main(void)
